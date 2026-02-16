@@ -1,67 +1,63 @@
-<div class="bg-zinc-900 min-h-screen">
-    <!-- Navigation -->
-    <nav class="w-full px-12 pt-6">
-        <ul class="flex gap-12 text-white dongle-regular text-3xl">
-            <li class="cursor-pointer hover:text-blue-400">
-                About Me
-            </li>
-            <li class="cursor-pointer hover:text-blue-400">
-                Projects
-            </li>
-            <li class="cursor-pointer hover:text-blue-400">
-                Contact Me
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Hero Section -->
-    <div class="flex h-full">
-        <!-- Left center  -->
-        <div class="inline-flex items-start gap-12 ml-32 mt-24 max-w-6xl">
-
-            <img
-                src="https://api.beatkhana.com/api/cdn/view/360b2fa3222c9d0c5fd6140f67d99d27.gif"
-                alt="Cat drink yummy yummy milkers"
-                class="rounded-full w-50 h-50 object-cover flex-shrink-0"
-            />
-
-            <div class="flex flex-col">
-                <h1 class="header1 dongle-regular m-0">
-                    mochi's Portfolio
-                </h1>
-
-                <h2 class="header2 dongle-regular mt-0">
-                    Data Scientist
-                </h2>
-
-                <p class="apt dongle-regular small-paragraph">
-                    Hi I'm Jaiden Roe (mochi) I am a Data Scienctist Looking forward to learning from experienced professionals and 
-                    growing within a forward-thinking organization.
-                </p>
-                <div class="container">
-                    <div class="box">
-                        <h3 class="text-3xl dongle-regular text-blue-400">
-                            Redwood Analytics-Portfolio
-                        </h3>
-                        <p class="text-2xl dongle-regular text-zinc-300 mt-1">
-                            Team portfolio showcasing DATA 311 collaborative projects
-                        </p>
-                        <a
-                            href="https://github.com/deancallahan25/Redwood-Analytics-Portfolio"
-                            target="_blank"
-                            class="inline-block mt-3 text-blue-500 hover:underline"
-                        >
-                        View on GitHub →
-                        </a>
-                    </div>
-                    <div class="box">
-                        <h3 class="text-3xl dongle-regular text-blue-400">
-                            some Project
-                        </h3>
-
-                    </div>
+<!-- Main Section -->
+<div class="flex h-full">
+    <!-- Left center  -->
+    <div class="inline-flex items-start gap-12 ml-32 mt-24 max-w-6xl">
+        <img
+            src="https://api.beatkhana.com/api/cdn/view/863d1294b88e5102c410f31db612a9ac.gif"
+            alt="Cat drink yummy yummy milkers"
+            class="rounded-full w-50 h-50 object-cover flex-shrink-0"
+        />
+        <div class="flex flex-col">
+            <h1 class="header1 dongle-regular mt-0">
+                mochi's Portfolio
+            </h1>
+            <h2 class="header2 dongle-regular mt-0">
+                Data Scientist
+            </h2>
+            <p class="apt dongle-regular small-paragraph">
+                Hi I'm Jaiden Roe (mochi) I am a Data Scienctist Looking forward to learning from experienced professionals and 
+                growing within a forward-thinking organization.
+            </p>
+            <div class="container">
+                <div class="box">
+                    <h3 class="text-3xl dongle-regular text-blue-400">
+                        Redwood Analytics-Portfolio
+                    </h3>
+                    <p class="text-2xl dongle-regular text-zinc-300 mt-1">
+                        Team portfolio showcasing DATA 311 collaborative projects
+                    </p>
+                    <a
+                        href="https://github.com/deancallahan25/Redwood-Analytics-Portfolio"
+                        target="_blank"
+                        class="inline-block mt-3 text-blue-500 hover:underline"
+                    >
+                    View on GitHub →
+                    </a>
+                </div>
+                <div class="box">
+                    <h3 class="text-3xl dongle-regular text-blue-400">
+                        some Project
+                    </h3>
+                    <p class="text-2xl dongle-regular text-zinc-300 mt-1">
+                        TBD
+                    </p>
                 </div>
             </div>
+                <h2 class="header2-1 dongle-regular mt-8">
+                    Education
+                </h2>
+                <div class="edu-box">
+                    <h3 class="text-4xl dongle-regular text-blue-400">
+                        California State Polytechnic University Humboldt
+                    </h3>
+                    <h4 class= "text-3xl dongle-regular text-blue-300">
+                        05/2027 (expected)<br>
+                    </h4>
+                    <p class="text-2xl dongle-regular text-zinc-300 mt-1">
+                        Undergrad Data Science, Computer Science <strong> 3.63/4.0 </strong><br>
+                        <strong>Relevant coursework: </strong> Data Cleaning, Machine Learning, Data Visualization, DataBase Management System, Data Analysis, Data Wargling.
+                    </p>
+                </div>
         </div>
     </div>
 </div>
@@ -80,7 +76,12 @@
         margin-top: 0;
         line-height: 1;
     }
-
+    .header2-1 {
+        color: rgb(90, 148, 255);
+        font-size: 4em;
+        margin-top: 3;
+        line-height: 1;
+    }
     .apt {
         color: rgb(90, 148, 255);
         font-size: 2em;
@@ -101,10 +102,18 @@
         margin-top: 24px;
     }
     .box {
-        width: 300px;
+        width: 400px;
         padding: 20px;
-        background-color: rgb(24, 24, 27); /* zinc-900 vibe */
-        border: 1px solid rgb(63, 63, 70);
+        background-color: rgb(46, 45, 48); /* zinc-900 vibe */
+        border: 1px solid rgb(39, 39, 87);
+        border-radius: 16px;
+        color: white;
+    }
+    .edu-box {
+        width: 823px;
+        padding: 20px;
+        background-color: rgb(46, 45, 48); /* zinc-900 vibe */
+        border: 5px solid rgb(39, 39, 87);
         border-radius: 16px;
         color: white;
     }
