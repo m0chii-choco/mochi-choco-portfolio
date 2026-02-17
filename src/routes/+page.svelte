@@ -5,19 +5,26 @@
         <img
             src="https://api.beatkhana.com/api/cdn/view/863d1294b88e5102c410f31db612a9ac.gif"
             alt="Cat drink yummy yummy milkers"
-            class="rounded-full w-50 h-50 object-cover flex-shrink-0"
-        />
+            class="rounded-full w-50 h-50 object-cover flex-shrink-0"/>
+         
         <div class="flex flex-col">
-            <h1 class="header1 dongle-regular mt-0">
+            <h1 class="header1 dongle-regular">
                 mochi's Portfolio
             </h1>
-            <h2 class="header2 dongle-regular mt-0">
+            <h2 class="header2 dongle-regular">
                 Data Scientist
             </h2>
             <p class="apt dongle-regular small-paragraph">
                 Hi I'm Jaiden Roe (mochi) I am a Data Scienctist Looking forward to learning from experienced professionals and 
                 growing within a forward-thinking organization.
             </p>
+            <p>
+                
+            </p>
+            <h2 class = "header2-1 dongle-regular mt-8">
+                Projects
+            </h2>
+
             <div class="container">
                 <div class="box">
                     <h3 class="text-3xl dongle-regular text-blue-400">
@@ -29,8 +36,7 @@
                     <a
                         href="https://github.com/deancallahan25/Redwood-Analytics-Portfolio"
                         target="_blank"
-                        class="inline-block mt-3 text-blue-500 hover:underline"
-                    >
+                        class="inline-block mt-3 text-blue-500 hover:underline">
                     View on GitHub →
                     </a>
                 </div>
@@ -79,7 +85,7 @@
     .header2-1 {
         color: rgb(90, 148, 255);
         font-size: 4em;
-        margin-top: 3;
+        margin-top: 2;
         line-height: 1;
     }
     .apt {
@@ -113,7 +119,7 @@
         width: 823px;
         padding: 20px;
         background-color: rgb(46, 45, 48); /* zinc-900 vibe */
-        border: 5px solid rgb(39, 39, 87);
+        border: 1px solid rgb(39, 39, 87);
         border-radius: 16px;
         color: white;
     }

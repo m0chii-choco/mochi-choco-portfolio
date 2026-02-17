@@ -15,9 +15,11 @@
 			<!-- svelte-ignore a11y_click_events_have_key_events -->
 			<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
 			<li class="cursor-pointer" onclick={() => goto('/')}>
-				<img src="https://api.beatkhana.com/api/cdn/view/863d1294b88e5102c410f31db612a9ac.gif" alt="" class="rounded-full w-5 h-6">
+				<img src="https://api.beatkhana.com/api/cdn/view/863d1294b88e5102c410f31db612a9ac.gif" 
+					 alt = "kitten"
+					 class="rounded-full w-5 h-6"/>
 			</li>
-			<li class="cursor-pointer hover:text-blue-400 dongle-regular">
+			<li class=" cursor-pointer hover:text-blue-400 dongle-regular">
 				<a href = "/about"> About Me </a>
 			</li>
 			<li class="cursor-pointer hover:text-blue-400 dongle-regular">

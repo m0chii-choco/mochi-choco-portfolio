@@ -1,1 +1,7 @@
 @import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap');
+
+.dongle-regular {
+	font-family: 'Dongle', sans-serif;
+	font-weight: 400;
+}
