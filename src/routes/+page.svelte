@@ -18,9 +18,7 @@
                 Hi I'm Jaiden Roe (mochi) I am a Data Scienctist Looking forward to learning from experienced professionals and 
                 growing within a forward-thinking organization.
             </p>
-            <p>
-                
-            </p>
+
             <h2 class = "header2-1 dongle-regular mt-8">
                 Projects
             </h2>
